@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Faiz's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ahmad Faiz</h1>
+        <p>Welcome to My Website from video game</p>
+    </header>
+
+    <nav>
+        <a href="#bio">BIO</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#video">VIDEO</a>
+        <a href="#blog">BLOG</a>
+    </nav>
+
+    <section>
+        <p>I'm a dedicated YouTube video game and blogger in Malaysia.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/ahmadfaizpo98ddt"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="https://instagram.com/ahmadfaizpo98ddt"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://facebook.com/ahmadfaizpo98ddt"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://linkedin.com/in/ahmadfaizpo98ddt"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Terms & Support | Designed with HTML, CSS</p>
+    </footer>
+</body>
+</html>
